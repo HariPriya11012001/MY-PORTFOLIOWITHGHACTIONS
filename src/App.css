@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f5f7fa;
+}
+
+.container {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.hero {
+  margin-bottom: 40px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  color: #222;
+}
+
+.hero p {
+  color: #555;
+}
+
+.card {
+  background: white;
+  margin: 20px auto;
+  padding: 25px;
+  max-width: 600px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.project {
+  background: #f0f3f7;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.skills span {
+  background: #e0e7ff;
+  padding: 8px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+footer {
+  margin-top: 30px;
+  color: gray;
+}
